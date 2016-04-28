@@ -16,5 +16,10 @@ module.exports = {
   // an optional security measure - if it is set, then that token will be required to get invited.
   inviteToken: process.env.INVITE_TOKEN || null,
 
+  // google site key (this is public)
+  recaptchaSiteKey: process.env.GOOGLE_RECAPTCHA_SITE_KEY || '6Le0iB4TAAAAAGAnPIkzQcG_r_PYzwwkw0-KiWy_',
+  // google private recaptcha key (keep this hidden)
+  privateRecaptchaKey: process.env.GOOGLE_RECAPTCHA_PRIVATE_KEY || 'PRIVATE-RECAPTCHA-KEY',
+
   locale: process.env.LOCALE || "en",
 };
