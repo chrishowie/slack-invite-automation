@@ -1,8 +1,8 @@
 module.exports = {
   // your community or team name to display on join page.
-  community: process.env.COMMUNITY_NAME || 'Triangle Testing',
+  community: process.env.COMMUNITY_NAME || 'QA Testers CLT',
   // your slack team url (ex: socketio.slack.com)
-  slackUrl: process.env.SLACK_URL || 'triangletesting.slack.com',
+  slackUrl: process.env.SLACK_URL || 'softwaretestingclt.slack.com',
   // access token of slack
   // You can generate it in https://api.slack.com/web#auth
   // You should generate the token in admin user, not owner.
@@ -17,7 +17,7 @@ module.exports = {
   inviteToken: process.env.INVITE_TOKEN || null,
 
   // google site key (this is public)
-  recaptchaSiteKey: process.env.GOOGLE_RECAPTCHA_SITE_KEY || '6Le0iB4TAAAAAGAnPIkzQcG_r_PYzwwkw0-KiWy_',
+  recaptchaSiteKey: process.env.GOOGLE_RECAPTCHA_SITE_KEY || '6LesMBYUAAAAANvPxm-LtXX-tXlaEzwjdonHb32r',
   // google private recaptcha key (keep this hidden)
   privateRecaptchaKey: process.env.GOOGLE_RECAPTCHA_PRIVATE_KEY || 'PRIVATE-RECAPTCHA-KEY',
 
